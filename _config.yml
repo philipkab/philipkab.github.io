@@ -17,15 +17,15 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "philippekabore.pdf", title: "CV", icon: home}
-  - {title: "About Me", icon: address-card}
-  - {title: "Research", file: "/research.md"}
-  - {title: "Blog", file: "/blog.md"}
+  - {file: "philippekabore.pdf", title: "CV", icon: Home}
+  - {title: "About Me", icon: About Me}
+  - {title: "Research", file: "/research.md", icon: Research}
+  - {title: "Blog", file: "/blog.md", icon: Blog}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:pkabore@uottawa.ca"}
   - {title: Github, icon: github, url: "https://github.com/philikab"}
-  - {title: Subscribe, icon: twitter, url: "https://twitter.com/philipkab"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/philipkab"}
   
 
 comments:
